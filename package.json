@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
+    "vercel-build": "prisma migrate deploy && next build",
     "start": "next start",
     "test": "echo \"No tests specified yet.\" && exit 0",
     "typecheck": "tsc --noEmit",
