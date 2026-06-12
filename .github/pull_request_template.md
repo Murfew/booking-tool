@@ -2,7 +2,7 @@
 
 ## Summary
 
-<!-- Short summary of the changes made -->
+<!-- Summary of the changes made -->
 
 ## Definition of Done
 
