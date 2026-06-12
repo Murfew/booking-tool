@@ -1,6 +1,4 @@
-## Closes #[issue_number]
-
-## Summary
+# Summary
 
 <!-- Summary of the changes made -->
 
