@@ -1,6 +1,6 @@
 ---
-name: Basic issue template
-about: Project steps
+name: Ticket
+about: Project action item
 title: ''
 labels: ''
 assignees: ''
