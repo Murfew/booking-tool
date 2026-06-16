@@ -11,8 +11,12 @@ export const auth = betterAuth({
     enabled: true,
   },
   baseURL: {
-    allowedHosts: [env.VERCEL_URL, env.VERCEL_BRANCH_URL, env.VERCEL_PROJECT_PRODUCTION_URL].filter(
-      (url): url is string => Boolean(url),
-    ),
+    allowedHosts: [
+      env.BETTER_AUTH_URL,
+      env.VERCEL_URL,
+      env.VERCEL_BRANCH_URL,
+      env.VERCEL_PROJECT_PRODUCTION_URL,
+    ].filter((url): url is string => Boolean(url)),
+    protocol: env.NODE_ENV === "development" ? "http" : "https",
   },
 });
