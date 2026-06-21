@@ -52,6 +52,8 @@ jobs:
         run: pnpm run biome:ci
 
       - name: Run Typecheck
+        env:
+          SKIP_ENV_VALIDATION: 1
         run: pnpm run typecheck
 
       - name: Run Build
