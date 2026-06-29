@@ -20,5 +20,4 @@ export const auth = betterAuth({
     ].filter((url): url is string => Boolean(url)),
     protocol: env.NODE_ENV === "development" ? "http" : "https",
   },
-  plugins: [nextCookies()],
 });

@@ -2,7 +2,7 @@ import { Typography } from "@/components/ui/typography";
 
 export default function SignInLayout({ children }: LayoutProps<"/">) {
   return (
-    <div className="flex h-screen flex-col items-center">
+    <div className="flex h-screen flex-col items-center overflow-hidden">
       <header className="flex h-16 w-screen items-center px-20 py-4 shadow-md">
         <Typography variant="h1" className="text-primary">
           BookingApp
